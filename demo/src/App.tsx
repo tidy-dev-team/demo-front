@@ -3,6 +3,7 @@ import "./App.css";
 
 import Dashboard from "./Dashboard";
 import Popup from "./Popup";
+import Calendars from "./Calendars";
 import { Button } from "@/components/ui/button";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <>
+    <Calendars></Calendars>
       <div className="min-h-screen">
         <div className="p-4">
           <Button onClick={() => setOpen(true)}>Open Popup</Button>
