@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-import Dashboard from "./dashboard";
+import Dashboard from "./Dashboard";
 import Popup from "./Popup";
 import { Button } from "@/components/ui/button";
 
